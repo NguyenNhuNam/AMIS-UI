@@ -22,7 +22,7 @@ var listMenuItem = {
         {className: "amis-aimarketing", name: "AMIS aiMarketing", desc: "Automation Marketing"},
         {className: "amis-ban-hang", name: "AMIS CRM", desc: "Quản lý bán hàng"},
         {className: "amis-khuyen-mai", name: "AMIS Khuyến mại", desc: "Quản lý khuyến mại"},
-        {className: "eshop", name: ">MISA eShop", desc: "Quản lý bán lẻ"},
+        {className: "eshop", name: "MISA eShop", desc: "Quản lý bán lẻ"},
         {className: "cukcuk", name: "MISA CukCuk", desc: "Quản lý nhà hàng, quán cafe"},
     ],
     empManage: [
@@ -263,6 +263,14 @@ function initEvent() {
     $(document).click((e) => {
         $('.dropdown-menu').hide()          
     })
+
+    $('#menu-menu i').click(function (e) { 
+        $(this).toggleClass('rotate-down')
+        $(this).parent().parent().children('.sub-menu').animate({
+            height: "toggle",
+            opacity: "toggle"
+          });
+    });
 
     $('#top-mobile-toggle i').click(() => {
         $('#mobile-nav .mobile-container').show()
