@@ -1,0 +1,244 @@
+.header-wrapper {
+    box-shadow: 3px -10px 30px -5px #000;
+    height: auto !important;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: #fff;
+}
+#header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.header-logo img {
+    cursor: pointer;
+    height: 60px;
+    max-width: 200px;
+    padding: 10px 0;
+}
+
+#nav {
+    line-height: 60px;
+}
+
+#nav > li {
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+#nav li {
+    padding: 0 28px 0 13px;    
+}
+
+#nav .subnav li {
+    padding: 0 20px 10px 20px;
+    line-height: 24px;
+    position: relative;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: #245ba3;
+    opacity: 1;
+}
+
+#nav .subnav {
+    display: none;
+    left: 0;
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    padding-top: 15px;
+    list-style-type: none;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 15%);
+}
+
+#nav .subnav a {
+    font-size: 14px;
+}
+
+#nav > li:hover .subnav {
+    display: block;
+}
+
+#nav > li:hover .fa-angle-down {
+    transform: rotate(180deg);
+}
+
+#nav > li:nth-child(2) {
+    padding: 0 13px;
+}
+
+#nav > li:nth-last-child(3) {
+    background: url(../../img/ic-phone.svg) no-repeat;
+    background-size: 24px;
+    background-position: left 15px center;  
+    padding: 0 13px 0 48px;
+    margin-left: 5px;
+}
+
+#nav > li:nth-last-child(3) > a {
+    color: #2680eb;
+    font-family: MISA Font Medium;
+}
+
+#nav > li:nth-last-child(2) {
+    padding: 0px 13px;
+}
+
+#nav > li:nth-last-child(2) > a {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    background-color: #2680eb;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#nav > li:last-child {
+    padding: 0;
+}
+
+#nav > li:last-child > a {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    border: solid 1px #2680eb;
+    margin: 10px 0;
+    padding: 9px 15px;
+    color: #2680eb;
+    border-radius: 4px;
+}
+
+#top-mobile-toggle {
+    display: none;
+}
+
+#top-mobile-toggle a {
+    display: inline-block;
+}
+
+#top-mobile-toggle i {
+    font-size: 27px;
+    line-height: 60px;
+    display: inline-block;
+    color: #2680eb;
+}
+
+@media (max-width: 1169.8px) {
+    #nav {
+        display: none;
+    }
+
+    #top-mobile-toggle {
+        display: block;
+    }
+
+    #header {
+        justify-content: space-between;
+    }
+
+    #menu-menu li a {
+        font-size: 18px;
+        line-height: 1.42857143;
+        font-weight: 400;
+    }
+
+    #menu-menu .sub-menu li a {
+        font-size: 17px;
+    }
+
+    #menu-menu .sub-menu .sub-menu > li > a {
+        font-size: 16px;
+    }
+    #menu-menu .sub-menu .sub-menu > li > a > span {
+        font-size: 14px;
+    }
+
+}
+
+#mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    height: 100%;
+    overflow-y: auto;
+    background-image: linear-gradient(#36404a, #378bac)
+}
+
+.mobile-container {
+    position: relative;
+}
+
+#mobile-nav .menu-socials {
+    padding: 0 65px 0 20px;
+    overflow: hidden;
+    height: 60px;
+}
+
+.mobile-close {
+    position: absolute;
+    right: 1px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    color: #fff;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-close a {
+    color: inherit;
+}
+
+.mobile-content {
+    padding: 20px 20px 0;
+}
+
+.mobile-content ul {
+    list-style: none;
+}
+
+.td-link-element-after {
+    position: relative;
+}
+
+.mobile-content ul li a {
+    display: block;
+    font-size: 21px;
+    color: #fff;
+    padding: 12px 32px 12px 12px;
+    font-weight: 700;
+}
+
+.fa-chevron-right {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: -4px;
+    padding: 6px 12px;
+
+}
+
+.mobile-content .sub-menu a {
+    padding: 9px 26px 9px 36px;
+}
+
+.mobile-content .sub-menu .sub-menu a {
+    padding-left: 55px;
+}
