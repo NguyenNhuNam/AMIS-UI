@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    loadSlider();
     loadMenu();
     loadTabMenu();
     loadProduct();
     loadCustomer();
+    loadSlider();
     initEvent();
   });
 
@@ -190,6 +190,21 @@ function loadProduct() {
     }                
 }
 
+function loadTabMenu() {
+    for (const menu in listMenuItem) {
+        listMenuItem[menu].forEach(item => {
+            let liItem = $(`<li>
+                            <a href="#" class="td-link-element-after">
+                                ${item.name}
+                                <br>
+                                <span>${item.desc}</span>
+                            </a>
+                        </li>`)
+            $( `#${menu}`).append(liItem)           
+        })
+    }
+}
+
 function loadCustomer() {
     let index = 1
     for (const customer in listCustomer) {
@@ -207,26 +222,7 @@ function loadCustomer() {
         })
         index++
     }
-    $('.customer .owl-carousel').owlCarousel({
-        autoplay: true,
-        scrollPerPage: true,
-        loop: true,
-        autoplayTimeout: 6000,
-        nav: false,
-        dots: false,
-        responsive: {
-            0: {
-                items: 3,
-            },
-            768: {
-                items: 5,
-            },
-            980: {
-                items: 6,
-            }
-        }
-    })
-  }
+}
 
 function initEvent() {
     $('.header-wrapper').mouseover(function (e) { 
@@ -288,21 +284,6 @@ function initEvent() {
     })
 }
 
-function loadTabMenu() {
-    for (const menu in listMenuItem) {
-        listMenuItem[menu].forEach(item => {
-            let liItem = $(`<li>
-                            <a href="#" class="td-link-element-after">
-                                ${item.name}
-                                <br>
-                                <span>${item.desc}</span>
-                            </a>
-                        </li>`)
-            $( `#${menu}`).append(liItem)           
-        })
-    }
-}
-
 function loadSlider() {
     $(".banner-item .owl-carousel").owlCarousel({
         items: 1,
@@ -317,6 +298,26 @@ function loadSlider() {
         navigation: true,
         stagePadding: 0,
     });
+
+    $('.customer .owl-carousel').owlCarousel({
+        autoplay: true,
+        scrollPerPage: true,
+        loop: true,
+        autoplayTimeout: 6000,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3,
+            },
+            768: {
+                items: 5,
+            },
+            980: {
+                items: 6,
+            }
+        }
+    })
 
     $('.prize .owl-carousel').owlCarousel({
         autoplay: true,

@@ -1,0 +1,74 @@
+.prize {
+    padding-top: 60px;
+}
+
+.p-title {
+    font-family: MISA Font Bold;
+    font-size: 28px;
+    color: #245ba3;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.p-image {
+    padding-bottom: 15px;
+}
+
+.p-image img {
+    width: unset !important;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.p-name {
+    font-family: MISA Font Bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.prize .owl-theme .owl-nav {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    top: calc(50% - 20px);
+}
+
+.prize .owl-nav .owl-prev {
+    position: absolute;
+    left: -20px;
+}
+
+.prize .owl-nav .owl-next {
+    position: absolute;
+    right: -20px;
+}
+
+.prize .owl-nav .owl-prev img,
+.prize .owl-nav .owl-next img {
+    border-radius: 50%;
+    box-shadow: 0 1px 5px 1px #ddd;
+}
+
+.prize .owl-nav .owl-prev:hover,
+.prize .owl-nav .owl-next:hover{
+    background: 0 0 !important;
+    opacity: .85;
+}
+
+.prize .owl-theme .owl-dots .owl-dot.active span {
+    background: #2680eb;
+    border: solid #2680eb 1px;
+}
+
+.prize .owl-theme .owl-dots .owl-dot:hover span {
+    background: #2680eb;
+    border: solid #2680eb 1px;
+}
+
+.prize .owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    border: solid #ddd 1px;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+}
