@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+  db: 
+    container_name: mariadb
+    image: mariadb:10.6.4-focal
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=somewordpress
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    expose:
+      - 3306
+    
+  wordpress:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: wordpress
+    container_name: wordpress
+    ports:
+      - 80:80
+    restart: always
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_NAME=wordpress
+
+volumes:
+  db_data:
+    

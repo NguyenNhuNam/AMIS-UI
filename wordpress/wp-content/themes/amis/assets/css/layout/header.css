@@ -11,7 +11,7 @@
     height: 60px;
     display: flex;
     justify-content: center;
-    padding: 0 15px;
+    padding: 0 10px;
     background-color: #fff;
 }
 
@@ -24,6 +24,7 @@
 
 #nav {
     line-height: 60px;
+    list-style: none;
 }
 
 #nav > li {
@@ -36,7 +37,9 @@ a {
     text-decoration: none;
 }
 #nav li {
-    padding: 0 28px 0 13px;    
+    padding: 0 24px 0 13px;    
+    color: #212121;
+    font-weight: unset;
 }
 
 #nav .subnav li {
@@ -83,7 +86,6 @@ a {
     background-size: 24px;
     background-position: left 15px center;  
     padding: 0 13px 0 48px;
-    margin-left: 5px;
 }
 
 #nav > li:nth-last-child(3) > a {

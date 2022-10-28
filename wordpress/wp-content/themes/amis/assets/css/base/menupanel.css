@@ -8,8 +8,8 @@
     line-height: 24px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }    
 @media (min-width: 1100px) {
     .content-menu, .market {
@@ -18,7 +18,7 @@
 }
 
 .content-menu .content-col {
-    padding: 0 10px 10px 10px;
+    padding: 0 10px;
     width: 25%;
 }
 
@@ -27,6 +27,11 @@
     font-weight: 700;
     padding: 5px 0 8px;
     margin-bottom: 8px;
+}
+
+.submenu .menu-item-group {
+    padding: 7px 5px;
+    display: block;
 }
 
 .menu-item-group .item-group-name {
@@ -81,7 +86,7 @@
     text-decoration: underline;
 }
 
-.content-col .submenu:hover,.content-col a:hover {
+.content-col a:hover {
     background-color: #e6f9fe;
 }
 

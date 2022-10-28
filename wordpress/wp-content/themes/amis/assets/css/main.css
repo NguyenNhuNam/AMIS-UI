@@ -25,12 +25,12 @@
 
 @font-face {
     font-family: MISA Fonts;
-    src: url(../../assets/font/GoogleSans-Light.otf);
+    src: url(../../assets/font/GoogleSans-Regular.ttf);
 }
 
 @font-face {
     font-family: MISA Font Bold;
-    src: url(../../assets/font/GoogleSans-Bold.otf);
+    src: url(../../assets/font/GoogleSans-Bold.ttf);
 }
 
 @font-face {
@@ -40,14 +40,13 @@
 
 @font-face {
     font-family: MISA Font Medium;
-    src: url(../../assets/font/GoogleSans-Medium.otf);
+    src: url(../../assets/font/GoogleSans-Medium.ttf);
 }
 
 
 body {
     font-family: MISA Fonts, Arial, sans-serif;
     font-size: 16px;
-    color: #000;
 }
 
 #main {

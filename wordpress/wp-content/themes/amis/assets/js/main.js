@@ -49,46 +49,46 @@ var listProducts = {
         groupName: "Quản lý điều hành",
         groupDesc: "Đơn giản hóa quy trình hoạt động, giúp việc điều hành doanh nghiệp trở nên dễ dàng hơn bao giờ hết",
         items: [
-            {nameItem: "AMIS Công việc", descItem: "Quản lý công việc", pathImage: "./assets/img/ic-operating-1.svg"},
-            {nameItem: "AMIS Mạng xã hội", descItem: "Mạng xã hội doanh nghiệp", pathImage: "./assets/img/ic-operating-2.svg"},
-            {nameItem: "AMIS Phòng họp", descItem: "Quản lý đặt phòng họp", pathImage: "./assets/img/ic-operating-3.svg"},
-            {nameItem: "AMIS Ghi chép", descItem: "Ghi chép & và lưu trữ tài liệu", pathImage: "./assets/img/ic-operating-4.svg"}
+            {nameItem: "AMIS Công việc", descItem: "Quản lý công việc", pathImage: "wp-content/themes/amis/assets/img/ic-operating-1.svg"},
+            {nameItem: "AMIS Mạng xã hội", descItem: "Mạng xã hội doanh nghiệp", pathImage: "wp-content/themes/amis/assets/img/ic-operating-2.svg"},
+            {nameItem: "AMIS Phòng họp", descItem: "Quản lý đặt phòng họp", pathImage: "wp-content/themes/amis/assets/img/ic-operating-3.svg"},
+            {nameItem: "AMIS Ghi chép", descItem: "Ghi chép & và lưu trữ tài liệu", pathImage: "wp-content/themes/amis/assets/img/ic-operating-4.svg"}
         ]
     },
     hrManagement: {
         groupName: "Quản trị nhân sự",
         groupDesc: "Tự động hóa mọi quy trình tác nghiệp giữa Nhân sự - Nhân viên - Lãnh đạo, kết nối mạng xã hội, sàn tuyển dụng, BHXH, Cơ quan thuế",
         items: [
-            {nameItem: "AMIS Tuyển dụng", descItem: "Quản lý tuyển dụng", pathImage: "./assets/img/ic-personnel-1.svg"},
-            {nameItem: "AMIS Mạng xã hội", descItem: "Mạng xã hội doanh nghiệp", pathImage: "./assets/img/ic-personnel-2.svg"},
-            {nameItem: "AMIS Thông tin nhân sự", descItem: "Hệ thống thông tin nhân sự", pathImage: "./assets/img/amis-qhld.svg"},
-            {nameItem: "AMIS BHXH", descItem: "Bảo hiểm xã hội điện tử", pathImage: "./assets/img/ic-personnel-3.svg"}
+            {nameItem: "AMIS Tuyển dụng", descItem: "Quản lý tuyển dụng", pathImage: "wp-content/themes/amis/assets/img/ic-personnel-1.svg"},
+            {nameItem: "AMIS Mạng xã hội", descItem: "Mạng xã hội doanh nghiệp", pathImage: "wp-content/themes/amis/assets/img/ic-personnel-2.svg"},
+            {nameItem: "AMIS Thông tin nhân sự", descItem: "Hệ thống thông tin nhân sự", pathImage: "wp-content/themes/amis/assets/img/amis-qhld.svg"},
+            {nameItem: "AMIS BHXH", descItem: "Bảo hiểm xã hội điện tử", pathImage: "wp-content/themes/amis/assets/img/ic-personnel-3.svg"}
         ]
     },
     finanManagement: {
         groupName: "Kế toán - Tài chính",
         groupDesc: "Đáp ứng đầy đủ nghiệp vụ quản trị tài chính, kế toán cho doanh nghiệp thuộc mọi quy mô, lĩnh vực",
         items: [
-            {nameItem: "AMIS Kế toán", descItem: "Quản trị kế toán", pathImage: "./assets/img/ic-accouting-financial-1.svg"},
-            {nameItem: "AMIS Bankhub", descItem: "Kết nối ngân hàng điện tử", pathImage: "./assets/img/ic-accouting-financial-2.svg"},
-            {nameItem: "MISA meInvoice", descItem: "Hóa đơn điện tử", pathImage: "./assets/img/ic-accouting-financial-3.svg"},
-            {nameItem: "AMIS mTax", descItem: "Dịch vụ thuế điện tử", pathImage: "./assets/img/ic-accouting-financial-4.svg"}
+            {nameItem: "AMIS Kế toán", descItem: "Quản trị kế toán", pathImage: "wp-content/themes/amis/assets/img/ic-accouting-financial-1.svg"},
+            {nameItem: "AMIS Bankhub", descItem: "Kết nối ngân hàng điện tử", pathImage: "wp-content/themes/amis/assets/img/ic-accouting-financial-2.svg"},
+            {nameItem: "MISA meInvoice", descItem: "Hóa đơn điện tử", pathImage: "wp-content/themes/amis/assets/img/ic-accouting-financial-3.svg"},
+            {nameItem: "AMIS mTax", descItem: "Dịch vụ thuế điện tử", pathImage: "wp-content/themes/amis/assets/img/ic-accouting-financial-4.svg"}
         ]
     },
     marketingManagement: {
         groupName: "Marketing - Bán hàng",
         groupDesc: "Thu hút tiềm năng, thúc đẩy tăng trưởng doanh số, gia tăng sự hài lòng của khách hàng",
         items: [
-            {nameItem: "AMIS Bán hàng", descItem: "Quản lý bán hàng", pathImage: "./assets/img/ic-sale-marketing-1.svg"},
-            {nameItem: "AMIS aiMarketing", descItem: "Marketing tự động", pathImage: "./assets/img/ic-sale-marketing-2.svg"},
+            {nameItem: "AMIS Bán hàng", descItem: "Quản lý bán hàng", pathImage: "wp-content/themes/amis/assets/img/ic-sale-marketing-1.svg"},
+            {nameItem: "AMIS aiMarketing", descItem: "Marketing tự động", pathImage: "wp-content/themes/amis/assets/img/ic-sale-marketing-2.svg"},
         ]
     },
     paymentManagement: {
         groupName: "Giải pháp thanh toán",
         groupDesc: "Nhận thanh toán trực tuyến & tại cửa hàng. Tích hợp với hệ thống phần mềm quản lý giúp xây dựng hệ sinh thái dữ liệu hoàn chỉnh",
         items: [
-            {nameItem: "JetPay Payment", descItem: "Cổng thanh toán", pathImage: "./assets/img/ic-jetpay-payment.svg"},
-            {nameItem: "AMIS aiMarketing", descItem: "Marketing tự động", pathImage: "./assets/img/ic-jetpay-billing.svg"},
+            {nameItem: "JetPay Payment", descItem: "Cổng thanh toán", pathImage: "wp-content/themes/amis/assets/img/ic-jetpay-payment.svg"},
+            {nameItem: "AMIS aiMarketing", descItem: "Marketing tự động", pathImage: "wp-content/themes/amis/assets/img/ic-jetpay-billing.svg"},
         ]
     }
 }
@@ -97,34 +97,34 @@ var listCustomer = {
     manufactruring: {
         groupName: "Sản xuất",
         items: [
-            "./assets/img/img-manufacturing-logo-3.jpg", "./assets/img/img-manufacturing-logo-4.jpg",
-            "./assets/img/img-manufacturing-logo-5.jpg", "./assets/img/img-manufacturing-logo-6.jpg",
-            "./assets/img/img-manufacturing-logo-7.jpg", "http://localhost/wordpress/wp-content/uploads/2022/10/img-manufacturing-logo-1.jpg",
-            "./assets/img/img-manufacturing-logo-2.jpg"
+            "wp-content/themes/amis/assets/img/img-manufacturing-logo-3.jpg", "wp-content/themes/amis/assets/img/img-manufacturing-logo-4.jpg",
+            "wp-content/themes/amis/assets/img/img-manufacturing-logo-5.jpg", "wp-content/themes/amis/assets/img/img-manufacturing-logo-6.jpg",
+            "wp-content/themes/amis/assets/img/img-manufacturing-logo-7.jpg", "wp-content/themes/amis/assets/img/img-manufacturing-logo-1.jpg",
+            "wp-content/themes/amis/assets/img/img-manufacturing-logo-2.jpg"
         ]
     },
     service: {
         groupName: "Dịch vụ",
         items: [
-            "./assets/img/img-service-logo-1.jpg", "./assets/img/img-service-logo-2.jpg",
-            "./assets/img/img-service-logo-3.jpg", "./assets/img/img-service-logo-4.jpg",
-            "./assets/img/img-service-logo-5.jpg", "./assets/img/img-service-logo-6.jpg"
+            "wp-content/themes/amis/assets/img/img-service-logo-1.jpg", "wp-content/themes/amis/assets/img/img-service-logo-2.jpg",
+            "wp-content/themes/amis/assets/img/img-service-logo-3.jpg", "wp-content/themes/amis/assets/img/img-service-logo-4.jpg",
+            "wp-content/themes/amis/assets/img/img-service-logo-5.jpg", "wp-content/themes/amis/assets/img/img-service-logo-6.jpg"
         ]
     },
     commerce: {
         groupName: "Thương mại",
         items: [
-            "./assets/img/img-commercial-logo-1.jpg", "./assets/img/img-commercial-logo-2.jpg",
-            "./assets/img/img-commercial-logo-3.jpg", "./assets/img/img-commercial-logo-4.jpg",
-            "./assets/img/img-commercial-logo-5.jpg", "./assets/img/img-commercial-logo-6.jpg"
+            "wp-content/themes/amis/assets/img/img-commercial-logo-1.jpg", "wp-content/themes/amis/assets/img/img-commercial-logo-2.jpg",
+            "wp-content/themes/amis/assets/img/img-commercial-logo-3.jpg", "wp-content/themes/amis/assets/img/img-commercial-logo-4.jpg",
+            "wp-content/themes/amis/assets/img/img-commercial-logo-5.jpg", "wp-content/themes/amis/assets/img/img-commercial-logo-6.jpg"
         ]
     },
     contruction: {
         groupName: "Xây lắp",
         items: [
-            "./assets/img/img-construction-logo-1.jpg", "./assets/img/img-construction-logo-2.jpg",
-            "./assets/img/img-construction-logo-3.jpg", "./assets/img/img-construction-logo-4.jpg",
-            "./assets/img/img-construction-logo-5.jpg", "./assets/img/img-construction-logo-6.jpg"
+            "wp-content/themes/amis/assets/img/img-construction-logo-1.jpg", "wp-content/themes/amis/assets/img/img-construction-logo-2.jpg",
+            "wp-content/themes/amis/assets/img/img-construction-logo-3.jpg", "wp-content/themes/amis/assets/img/img-construction-logo-4.jpg",
+            "wp-content/themes/amis/assets/img/img-construction-logo-5.jpg", "wp-content/themes/amis/assets/img/img-construction-logo-6.jpg"
         ]
     }
 }
@@ -183,7 +183,7 @@ function loadProduct() {
         if (index < 5) $(`.pi-row:nth-child(${index}) .pi-list`).append(`<div class="view-more">
                                                                             <a href="">
                                                                                 Xem thêm
-                                                                                <img src="./assets/img/ic_arrow-down.svg" alt="" width="12" height="9">
+                                                                                <img src="wp-content/themes/amis/assets/img/ic_arrow-down.svg" alt="" width="12" height="9">
                                                                             </a>
                                                                         </div>`) 
         index++                                                                        
@@ -299,109 +299,109 @@ function loadSlider() {
         stagePadding: 0,
     });
 
-    // $('.customer .owl-carousel').owlCarousel({
-    //     autoplay: true,
-    //     scrollPerPage: true,
-    //     loop: true,
-    //     autoplayTimeout: 6000,
-    //     nav: false,
-    //     dots: false,
-    //     responsive: {
-    //         0: {
-    //             items: 3,
-    //         },
-    //         768: {
-    //             items: 5,
-    //         },
-    //         980: {
-    //             items: 6,
-    //         }
-    //     }
-    // })
+    $('.customer .owl-carousel').owlCarousel({
+        autoplay: true,
+        scrollPerPage: true,
+        loop: true,
+        autoplayTimeout: 6000,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3,
+            },
+            768: {
+                items: 5,
+            },
+            980: {
+                items: 6,
+            }
+        }
+    })
 
-    // $('.prize .owl-carousel').owlCarousel({
-    //     autoplay: true,
-    //     scrollPerPage: true,
-    //     loop: true,
-    //     nav: true,
-    //     dots: false,
-    //     navText: ["<img src='./assets/img/ic-prev.svg' width='40' height='40'>", "<img src='./assets/img/ic-next.svg' width='40' height='40'>", ],
-    //     autoplayTimeout: 6000,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //             nav: false,
-    //             dots: true,
-    //         },
-    //         768: {
-    //             items: 3,
-    //             nav: false,
-    //             dots: true,
-    //         },
-    //         980: {
-    //             items: 4,
-    //             nav: true,
-    //             dots: false,
-    //         }
-    //     }
-    // });
+    $('.prize .owl-carousel').owlCarousel({
+        autoplay: true,
+        scrollPerPage: true,
+        loop: true,
+        nav: true,
+        dots: false,
+        navText: ["<img src='wp-content/themes/amis/assets/img/ic-prev.svg' width='40' height='40'>", "<img src='wp-content/themes/amis/assets/img/ic-next.svg' width='40' height='40'>", ],
+        autoplayTimeout: 6000,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+                dots: true,
+            },
+            768: {
+                items: 3,
+                nav: false,
+                dots: true,
+            },
+            980: {
+                items: 4,
+                nav: true,
+                dots: false,
+            }
+        }
+    });
 
-    // $('.comment-item .owl-carousel').owlCarousel({
-    //     items: 3,
-    //     loop: true,
-    //     margin: 0,
-    //     nav: true,
-    //     dots: false,
-    //     navText: ["<img src='./assets/img/ic-prev.svg' width='40' height='40'>", "<img src='./assets/img/ic-next.svg' width='40' height='40'>", ],
-    //     autoplay: true,
-    //     smartSpeed: 2000,
-    //     scrollPerPage: true,
-    //     autoplayTimeout: 5000,
-    //     autoplayHoverPause: true,
-    //     navigation: true,
-    //     autoHeight: true,
-    //     responsive: {
-    //         981: {
-    //             items: 3,
-    //             nav: true,
-    //             dots: false,
-    //         },
-    //         481: {
-    //             items: 2,
-    //             nav: false,
-    //             dots: true,
-    //         },
-    //         0: {
-    //             items: 1,
-    //             nav: false,
-    //             dots: true,
-    //         },
-    //     },
-    // });
-    // $('.news-item .owl-carousel').owlCarousel({
-    //     items: 3,
-    //     loop: true,
-    //     margin: 0,
-    //     nav: false,
-    //     dots: true,
-    //     autoplay: true,
-    //     smartSpeed: 2000,
-    //     scrollPerPage: true,
-    //     autoplayTimeout: 6000,
-    //     autoplayHoverPause: true,
-    //     navigation: true,
-    //     autoHeight: true,
-    //     responsive: {
-    //         981: {
-    //             items: 3,
-    //         },
-    //         481: {
-    //             items: 2,
-    //         },
-    //         0: {
-    //             items: 1,
-    //         },
-    //     },
-    // });
+    $('.comment-item .owl-carousel').owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        navText: ["<img src='wp-content/themes/amis/assets/img/ic-prev.svg' width='40' height='40'>", "<img src='wp-content/themes/amis/assets/img/ic-next.svg' width='40' height='40'>", ],
+        autoplay: true,
+        smartSpeed: 2000,
+        scrollPerPage: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        navigation: true,
+        autoHeight: true,
+        responsive: {
+            981: {
+                items: 3,
+                nav: true,
+                dots: false,
+            },
+            481: {
+                items: 2,
+                nav: false,
+                dots: true,
+            },
+            0: {
+                items: 1,
+                nav: false,
+                dots: true,
+            },
+        },
+    });
+    $('.news-item .owl-carousel').owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 0,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        smartSpeed: 2000,
+        scrollPerPage: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        navigation: true,
+        autoHeight: true,
+        responsive: {
+            981: {
+                items: 3,
+            },
+            481: {
+                items: 2,
+            },
+            0: {
+                items: 1,
+            },
+        },
+    });
 }
 
